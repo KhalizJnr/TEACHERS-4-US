@@ -1,0 +1,377 @@
+ /* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+.hamburge{
+    float: right;
+    color: #000;
+        height: 20%;
+    width: 5px;
+    width: 1%;
+    height: 1%;
+   font-weight: bolder;
+  float: right;
+clip: rect(1px, 1px, 1px, 1px);
+padding: 4%;
+text-align: center;
+transition: 0.4s;
+
+}
+.hamburge:hover{
+    background-color: #000;
+    color: #fff;
+}
+.meet-the-team{
+    text-align: center;
+    font-family: "Courier New";
+}
+.abbreviation{
+        padding:10px;
+    font-weight: bolder;
+    text-align: center;
+    font-family: "Courier New" ;
+    margin: 20px;
+
+}
+.doggie{
+    width: 100%;
+}
+.about, .img-inside{
+    display: inline-block;
+    float: left;
+    width: 50%;
+}
+.inside{
+    width: 500px;
+}
+
+/*Flip box Stylesheet*/
+ /* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flips {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-box-inners {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flips:hover .flip-box-inners {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-box-fronter, .flip-box-backer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-box-fronter {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-box-backer {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+} 
+.flip-img{
+    width: 500px;
+}
+/*Flip box Stylesheet Ends Here*/
+
+.flips {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-box-inners {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flips:hover .flip-box-inners {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-box-fronter, .flip-box-backer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-box-fronter {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-box-backer {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+} 
+.flip-img{
+    width: 500px;
+}
+
+/*Flip box Stylesheet*/
+ /* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flips {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-box-inners {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flips:hover .flip-box-inners {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-box-fronter, .flip-box-backer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-box-fronter {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-box-backer {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+} 
+.flip-img{
+    width: 500px;
+}
+/*Flip box Stylesheet Ends Here*/
+
+.flips {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-box-inners {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flips:hover .flip-box-inners {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-box-fronter, .flip-box-backer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-box-fronter {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-box-backer {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+} 
+.flip-img{
+    width: 500px;
+}
+.flips{
+    display: inline-block;
+    float: left;
+    
+}
+.olympic{
+    text-align: center;
+    font-family: "Courier New";
+    font-weight:bolder;
+}
+
+
+
+.loots{
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:#37474F;
+  color: white;
+  text-align: center;
+}
+.EUFILOGO{
+    width: 100px;
+    margin: 5%;
+}
+.second-container-div{
+    width: 33.33%;
+    display: inline-block;
+    float: left;
+}
+
+
+/*Tool tip stlesheet*/
+ /* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+
+    /* Position the tooltip text */
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+
+    /* Fade in tooltip */
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+/* Tooltip arrow */
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+@media screen and (max-width: 320px) {
+     .colors{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+     .loots{
+        display: none;
+    }
+}
